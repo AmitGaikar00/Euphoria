@@ -46,7 +46,7 @@ function Footer() {
   ];
   return (
     <section className=" bg-[#2A2F2F]">
-      <footer className="container mx-auto w-full text-white p-5 py-20">
+      <footer className="container mx-auto w-full text-white px-5 py-20 md:px-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 ">
           {footerInfo.map((item, index) => (
             <FooterItem key={index} name={item.name} list={item.list} />

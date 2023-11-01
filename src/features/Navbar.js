@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <section className="container mx-auto w-full bg-white">
       {/* desktop view */}
-      <header className="flex justify-between items-center p-5">
+      <header className="flex justify-between items-center p-5 md:py-5 md:px-16">
         <img
           src="Euphoria.svg"
           className="w-18 cursor-pointer hidden lg:block"

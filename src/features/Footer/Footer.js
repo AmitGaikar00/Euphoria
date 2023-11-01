@@ -95,11 +95,13 @@ function Footer() {
         <hr className="border-dark-soft mt-10 md:mt-5" />
         <div className="py-5 flex justify-between items-center">
           <h3 className="font-semibold text-xl">Popular Categories </h3>
-          <ChevronDownIcon className="h-6 cursor-pointer"/>
+          <ChevronDownIcon className="h-6 cursor-pointer" />
         </div>
         <hr className="border-dark-soft" />
 
-        <p className="text-xs p-5 md:p-8 flex justify-center font-semibold">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+        <p className="text-xs p-5 md:p-8 flex justify-center font-semibold">
+          Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+        </p>
       </footer>
     </section>
   );

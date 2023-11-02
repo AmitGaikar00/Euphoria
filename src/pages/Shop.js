@@ -44,10 +44,10 @@ function Shop() {
       {/* Deals section */}
       <section className="flex flex-col md:flex-row gap-5 lg:gap-0 items-center justify-center py-10">
         <div className="w-full sm:w-3/4">
-          <img className="cursor-pointer" src="Breezy.svg" alt="breezy" />
+          <img className="cursor-pointer" src="images/breezy.png" alt="breezy" />
         </div>
         <div className="w-full sm:w-3/4">
-          <img className="cursor-pointer" src="coziness.svg" alt="coziness" />
+          <img className="cursor-pointer" src="images/coziness.png" alt="coziness" />
         </div>
       </section>
 
@@ -170,7 +170,7 @@ function Shop() {
       </section>
 
       {/* brands section */}
-      <section className="py-10 bg-dark-hard flex items-center justify-center flex-col gap-5 text-white rounded-lg">
+      <section className=" mt-10 mb-10 py-10 bg-dark-hard flex items-center justify-center flex-col gap-5 text-white rounded-lg">
         <h1 className="font-bold text-4xl">Top Brands Deal</h1>
         <p className="text-xl">
           Up To <span className="text-yellow-300">60%</span> off on brands

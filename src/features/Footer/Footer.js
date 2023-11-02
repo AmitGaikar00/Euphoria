@@ -74,7 +74,7 @@ function Footer() {
             <h3 className="font-semibold text-xl">Download The App</h3>
             <div className="flex gap-10">
               <div className="playstore flex gap-2 justify-between items-center">
-                <img src="playstore.svg" alt="" />
+                <img src="images/playstore.png" alt="" />
                 <p className="text-[0.5rem]">
                   Android app on{" "}
                   <span className="block font-semibold text-sm">
@@ -83,7 +83,7 @@ function Footer() {
                 </p>
               </div>
               <div className="iphone flex gap-2 justify-between items-center">
-                <img src="iphone.svg" alt="" />
+                <img src="images/iphone.png" alt="" />
                 <p className="text-[0.5rem]">
                   Availalbe on the{" "}
                   <span className="block font-semibold text-sm">App Store</span>

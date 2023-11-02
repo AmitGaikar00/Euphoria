@@ -4,7 +4,7 @@ function Banner() {
   return (
     <section className="w-full h-screen relative bg-[#01b7dc] md:bg-white">
       <img
-        src="hero.svg"
+        src="images/hero.png"
         className="w-full h-screen object-cover object-top hidden md:block"
         alt="hero"
       />
@@ -15,7 +15,7 @@ function Banner() {
         </h1>
         <h2 className="font-semibold text-2xl xl:text-3xl ">cool / colourful / comfy</h2>
         <div>
-          <button className="text-black text-base px-12 py-2 rounded-lg shadow-sm bg-white border-none font-bold hover:bg-dark-light transition-all duration-200">
+          <button className="text-black text-base px-12 py-2 rounded-lg shadow-sm bg-white font-bold hover:bg-inherit hover:text-white hover:border-white border-2 border-white transition-all duration-200">
             Shop Now
           </button>
         </div>

@@ -12,6 +12,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 function Navbar() {
+
   const [navIsVisible, setNavIsVisible] = useState(true);
   const navItemsInfo = [
     { name: "Shop", type: "link", href: "/" },

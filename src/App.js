@@ -1,7 +1,11 @@
 import React from "react";
 import Navbar from "./features/common/Navbar";
 import Login from "./features/auth/Login";
-import Signin from "./features/auth/Signin";
+import Signup from "./features/auth/Signup";
+import ForgotPassword from "./features/auth/ForgotPassword";
+import Verification from "./features/auth/Verification";
+import NewPassword from "./features/auth/NewPassword";
+import Men from "./features/Men/Men";
 
 function App() {
   return (
@@ -10,8 +14,12 @@ function App() {
       {/* <Banner />
       <Shop />
       <Footer /> */}
-      <Login/>
-      {/* <Signin/> */}
+      {/* <Login/> */}
+      {/* <Signup/> */}
+      {/* <ForgotPassword /> */}
+      {/* <Verification/> */}
+      {/* <NewPassword/> */}
+      <Men/>
     </>
   );
 }

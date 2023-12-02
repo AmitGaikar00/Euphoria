@@ -6,6 +6,7 @@ import ForgotPassword from "./features/auth/ForgotPassword";
 import Verification from "./features/auth/Verification";
 import NewPassword from "./features/auth/NewPassword";
 import Men from "./features/Men/Men";
+import Footer from "./features/common/Footer/Footer";
 
 function App() {
   return (
@@ -13,13 +14,13 @@ function App() {
       <Navbar />
       {/* <Banner />
       <Shop />
-      <Footer /> */}
       {/* <Login/> */}
       {/* <Signup/> */}
       {/* <ForgotPassword /> */}
       {/* <Verification/> */}
       {/* <NewPassword/> */}
       <Men/>
+      <Footer />
     </>
   );
 }

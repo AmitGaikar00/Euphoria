@@ -9,7 +9,7 @@ function FooterItem({ name, list }) {
       <ul className="flex flex-col gap-3">
         {list.map((item, index) => (
           <li
-            className=" list-none font-light text-gray-400 hover:text-dark-light text-sm md:text-lg cursor-pointer transition-all duration-250"
+            className=" list-none text-gray-400 hover:text-dark-light text-sm md:text-lg cursor-pointer transition-all duration-250"
             key={index}
           >
             {item}

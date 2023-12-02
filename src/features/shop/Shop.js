@@ -44,10 +44,18 @@ function Shop() {
       {/* Deals section */}
       <section className="flex flex-col md:flex-row gap-5 lg:gap-0 items-center justify-center py-10">
         <div className="w-full sm:w-3/4">
-          <img className="cursor-pointer" src="images/breezy.png" alt="breezy" />
+          <img
+            className="cursor-pointer"
+            src="images/breezy.png"
+            alt="breezy"
+          />
         </div>
         <div className="w-full sm:w-3/4">
-          <img className="cursor-pointer" src="images/coziness.png" alt="coziness" />
+          <img
+            className="cursor-pointer"
+            src="images/coziness.png"
+            alt="coziness"
+          />
         </div>
       </section>
 

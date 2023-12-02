@@ -1,16 +1,17 @@
 import React from "react";
-import Navbar from "./features/Navbar";
-import Footer from "./features/Footer/Footer";
-import Banner from "./features/Banner";
-import Shop from "./pages/Shop";
+import Navbar from "./features/common/Navbar";
+import Login from "./features/auth/Login";
+import Signin from "./features/auth/Signin";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Banner/>
-      <Shop/>
-      <Footer />
+      {/* <Banner />
+      <Shop />
+      <Footer /> */}
+      <Login/>
+      {/* <Signin/> */}
     </>
   );
 }

@@ -63,7 +63,7 @@ function Navbar() {
         <div className="relative text-dark-hard font-light bg-dark-light rounded-lg hidden lg:block ">
           <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#959EAD]" />
           <input
-            className="bg-dark-light placeholder:text-sm font-semibold text-dark-soft placeholder:text-[#959EAD] rounded-lg pl-10 pr-3 w-full py-2 focus:outline-none hover:bg-slate-100"
+            className="appearance-none border-none bg-dark-light placeholder:text-sm font-semibold text-dark-soft placeholder:text-[#959EAD] rounded-lg pl-10 pr-3 w-full py-2 focus:outline-none focus:ring-0"
             type="text"
             placeholder="Search"
           />
@@ -85,7 +85,7 @@ function Navbar() {
             <div className="relative text-dark-hard font-light bg-dark-light rounded-lg max-w-sm">
               <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#959EAD]" />
               <input
-                className="bg-dark-light placeholder:text-sm font-semibold text-dark-soft placeholder:text-[#959EAD] rounded-lg pl-10 pr-3 w-full py-2 focus:outline-none hover:bg-slate-100"
+                className="bg-dark-light placeholder:text-sm font-semibold text-dark-soft placeholder:text-[#959EAD] rounded-lg pl-10 pr-3 w-full py-2 focus:outline-none hover:bg-slate-100 "
                 type="text"
                 placeholder="Search"
               />

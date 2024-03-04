@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon, FunnelIcon } from "@heroicons/react/24/solid";
-import { HeartIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const dataProducts = [
@@ -2184,6 +2183,7 @@ export default function Men() {
               <img
                 src={product.thumbnail}
                 alt={product.title}
+                loading="lazy"
                 className="h-full w-full object-cover object-center lg:h-full lg:w-full"
               />
             </div>
